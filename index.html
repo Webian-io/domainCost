@@ -1,8 +1,8 @@
 <html>
     <head>
-        <link rel="stylesheet" href="style.css">
-        <script src="../node_modules/vue/dist/vue.js"></script>
-        <script src="../node_modules/vue-resource/dist/vue-resource.min.js"></script>
+        <link rel="stylesheet" href="src/style.css">
+        <script src="node_modules/vue/dist/vue.js"></script>
+        <script src="node_modules/vue-resource/dist/vue-resource.min.js"></script>
     </head>
     <body>
         <div id="app">
@@ -10,12 +10,12 @@
             <button v-on:click="findDomain">Find domain</button>
 
             <div>
-                Résultats:
+                results:
                 <li v-for="domainHost in domainHostsFound">
                     {{ domainHost.name }} - {{ domainHost.price }}
                 </li>
             </div>
         </div>
-        <script src="script.js"></script>
+        <script src="src/script.js"></script>
     </body>
 </html>
