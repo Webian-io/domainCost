@@ -17,7 +17,13 @@
   },
   "homepage": "https://github.com/Webian-io/domainCost#readme",
   "dependencies": {
+    "express": "^4.17.1",
+    "ovh": "^2.0.3",
+    "request": "^2.88.2",
     "vue": "^2.6.11",
     "vue-resource": "^1.5.1"
+  },
+  "devDependencies": {
+    "vue-devtools": "^5.1.3"
   }
 }
